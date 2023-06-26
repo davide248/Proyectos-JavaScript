@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.estructure{
+    background-color: #2A866E;
+    height: 80vh;
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    border-radius: 8px;
+    box-shadow: 8px 8px 30px 0 grey;
+}
+
+.estructure h1{
+    text-align: center;
+    color:grey;
+    padding: 10px;
+}
+
+.estructure label{
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.estructure .login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.estructure input{
+    border: 1px solid goldenrod;
+    padding: 3px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.bLogin{  
+    border: 1px solid goldenrod;
+    padding: 3px;
+    border-radius: 5px;
+    color: #2A866E;
+    cursor: pointer;
+}
+
+/* #loginContainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+} */
+
+.estructure .datos{
+    margin: 20px auto;
+    border-radius: 8px;
+    height: 20vh;
+    width: 205px;
+    background-color: white;
+    border: 1px solid goldenrod;
+    padding: 10px;
+    font-size: 0.8em;
+}
+
+.estructure .datos li{
+    list-style: none;
+    margin-bottom: 4px;
+}
+
+.estructure .total{
+    background-color: #2A866E;
+    color: white;
+    width: 250px;
+    padding: 5px;
+    border-radius: 8px;
+    border: 1px solid goldenrod;
+    text-align: center;
+    margin: -7px auto;
+    height: 30px;
+}
+
+.display{
+    background-color: #EBEFF2;
+    height: 60%;
+    width: 50%;
+    position: relative;
+    top: 40px;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 3px solid goldenrod;
+}
+
+.buttons-left,
+.buttons-right {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    position: relative;
+    top: 100px
+}
+
+.button {
+    padding: 10px;
+    margin: 20px;
+    background-color: #EBEFF2;
+    color: #2A866E;
+    border: 1px solid goldenrod;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+img{
+    height: 150px;
+    position: relative;
+    left: 150px;
+    top: -200px;
+    z-index: 100;
+}
+
+@media(min-width: 1200px){
+
+    img{
+        left: 250px;  
+    }
+
+}
