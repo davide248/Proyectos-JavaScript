@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Caja Rural</title>
+</head>
+<body>
+    <main>
+        <div class="estructure">
+
+            <div class="buttons-left">
+                <button class="button" id="bSaldo">Ver saldo</button>
+                <button class="button" id="bIngresar">Ingresar dinero</button>
+                <button class="button" id="bRetirar">Retirar dinero</button>
+            </div>
+     
+            <div class="display">
+                <h1 id="saludo">Bienvenido a Caja Rural</h1>
+
+                <div class="login">
+                    <label id="introDatos">Introduce tu clave para continuar:</label>
+                    <div id="loginContainer">
+                        <input id="login" type="text">
+                        <button class="bLogin" id="bLogin">OK</button>
+                    </div>
+                </div>
+
+                <div class="datos" id="datos">
+                </div>
+
+                <div class="total" id="total">
+                    <p></p> 
+                </div>
+                
+            </div>
+
+            <div class="buttons-right">
+                <button class="button" id="bTransfer">Transferencia</button>
+                <button class="button" id="bCuentas">Ver cuentas</button>
+                <button class="button" id="bSalir">Salir</button>
+            </div>
+
+            </div>
+            
+            <img src="img/logo.png">
+            
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
