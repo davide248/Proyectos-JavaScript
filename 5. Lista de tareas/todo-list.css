@@ -1,0 +1,71 @@
+/****************************** RESET ******************************/
+
+
+*, 
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    list-style-type: none;
+}
+
+/****************************** ESTILOS ******************************/
+
+body{
+    background: linear-gradient(to bottom, coral, #50d0ff);
+    height: 100vh;
+}
+
+
+/**** INPUT ****/
+
+.añadir-group{
+    border-bottom: 1px solid gainsboro;
+    padding: 10px;
+    padding-bottom: 30px;
+}
+
+.añadir-input{
+    border: none;
+}
+
+.añadir-input {
+    box-shadow: none !important;
+}
+
+.añadir-btn{
+    background-color: green;
+    border-radius: 5px !important;
+    margin: 2px;
+    color: aqua;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.añadir-btn:hover{
+    border: 1px solid coral;
+}
+
+
+/**** LIST ****/
+
+.list li{
+    list-style: none;
+    padding: 10px;
+    border-bottom: 1px solid gainsboro;
+    color: chocolate;
+    font-weight: bold;
+}
+
+
+/**** TEXTO VACIO ****/
+
+.vacio p{
+    margin: 1em;
+    text-align: center;
+}
